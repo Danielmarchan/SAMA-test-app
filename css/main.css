@@ -1,0 +1,49 @@
+/*Global*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: #3D3E42!important;
+}
+
+/*Header*/
+.header {
+    margin: 0 25px;
+    border-bottom: solid #ddd 1px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.header img {
+    top: 0;
+    height: 70px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: -25px;
+}
+.active-tab {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 35px;
+    color: #a5a5a5;
+}
+
+/*Content*/
+.content {
+    text-align: center;
+}
+
+/*Products*/
+#product-list {
+    margin-top: 75px;
+}
+.product {
+    text-align: center;
+    margin: 25px 0;
+}
+.product img {
+    object-fit: contain;
+    width: 80%;
+    height: 200px;
+}

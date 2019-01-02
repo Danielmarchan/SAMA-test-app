@@ -12,12 +12,32 @@
         <link href="css/animate.css" rel="stylesheet"/>
         <!-- Bootstrap v4-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
         <!--Custom CSS-->
         <link href="css/main.css" rel="stylesheet"/>
 
         <title>SAMA Test App</title>
     </head>
     <body>
+        <!--Header-->
+        <div class="header">
+            <img id="company-logo" alt="repzio logo">
+            <p class="active-tab">Products</p>
+        </div>
+        
+        <!--Content-->
+        <div class="content container">
+            <!--Intro-->
+            <h1 id="company-name"></h1>
+            <div id="message"></div>
+            <a id="email" target="_blank"></a>
+    
+            <!--Product List--> 
+            <div id="product-list" class="row"></div>
+        </div>
+        
 
         <!--jQuery-->
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
