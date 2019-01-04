@@ -108,7 +108,7 @@ function loadDetails(product) {
     detailNameH2.textContent = product.ItemName;
     detailIdH6.textContent = `ID: ${product.ItemID}`;
     detailDexcriptionP.textContent = product.Description;
-    detailDimensionsH6.textContent = `Base price: ${product.Dimensions}`;
+    detailDimensionsH6.textContent = `Dimensions: ${product.Dimensions}`;
     detailPriceH6.textContent = `Base Price: ${product.BasePrice}`;
     productDetails.style.display = "flex";
     
