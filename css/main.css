@@ -5,7 +5,9 @@ body {
 h1, h2, h3, h4, h5, h6, p {
     color: #3D3E42!important;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
 /*Header*/
 .header {
     margin: 0 25px;
@@ -18,20 +20,37 @@ h1, h2, h3, h4, h5, h6, p {
     height: 70px;
     display: inline-block;
     margin-left: 25px;
-    margin-top: -25px;
-}
-.active-tab {
-    display: inline-block;
-    width: 100px;
-    margin: 0;
-    margin-top: 30px;
-    margin-left: 35px;
-    color: #a5a5a5;
 }
 
 /*Content*/
 .content {
     text-align: center;
+}
+
+/*Product Details*/
+#product-details {
+    text-align: justify;
+    margin-top: 50px;
+    border-top: solid #ddd 1px;
+    border-bottom: solid #ddd 1px;
+    padding: 25px 0;
+}
+.fa-times {
+    color: #3D3E42;
+    font-size: 2em;
+    margin-bottom: 25px;
+    text-align: right;
+    float: right;
+    cursor: pointer;
+}
+.fa-times:hover {
+    color: #FBBB1D;
+}
+#product-details img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 25px;
 }
 
 /*Products*/
@@ -40,10 +59,31 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .product {
     text-align: center;
-    margin: 25px 0;
+    margin: 50px 0;
+    position: relative;
 }
 .product img {
     object-fit: contain;
     width: 80%;
     height: 200px;
+}
+#product-list h2 {
+    text-align: justify;
+}
+/*Hover Product*/
+.hover-product {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(251, 187, 29, 0.9);
+    padding: 50px 25px;
+}
+.hover-product p {
+    color: white!important;
 }
