@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     margin: 0 25px;
     border-bottom: solid #ddd 1px;
-    margin-bottom: 50px;
+    margin-bottom: 50px!important;
     padding-bottom: 10px;
 }
 .header img {
@@ -86,4 +86,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hover-product p {
     color: white!important;
+}
+
+/*Media Queries*/
+@media(max-width: 620px) {
+    .header {
+        margin: 0 10px;
+    }
+    .header img {
+        margin-left: 5px;
+    }
 }
